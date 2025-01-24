@@ -98,6 +98,22 @@ loadstring(game:HttpGet("https://scripts.alchemyhub.xyz"))()
    })
 
     AddButton(Tab1o, {
+     Name = "fram rương v2",
+    Callback = function()
+
+_G.Settings = {
+    ["Enable Farm"] = true,
+    ["SnipeLegendaryItem"] = true,
+    ["Choose Team"] = "Marines",
+    ["White Screen"] = false,
+    ["Reset Anti Detect"] = true
+}
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/xxhumggxx/SkullHub/refs/heads/main/ChestV2.lua"))()
+
+    end
+    })
+
+    AddButton(Tab1o, {
      Name = "RubuHubv3",
     Callback = function()
 
@@ -105,6 +121,25 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Bubu2k/Rubutv/refs/he
 
   end
   })
+
+    AddButton(Tab1o, {
+     Name = "cuttayHub",
+    Callback = function()
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/diemquy/CutTayHub/refs/heads/main/Cuttayhubreal.lua'))()
+
+   end
+   })
+
+    AddButton(Tab1o, {
+     Name = "cokka hub",
+    Callback = function()
+
+_G.Key = "Your Key" 
+ loadstring(game:HttpGet"https://raw.githubusercontent.com/UserDevEthical/Loadstring/main/CokkaHub.lua")()
+
+    end
+    })
 
     AddButton(Tab1o, {
      Name = "Redzhub",
