@@ -30,13 +30,31 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/VanThanhIOS/OniiChan
       })
       
 ------ Tab
-     local Tab1o = MakeTab({Name = "Chức Năng"})
+     local Tab1o = MakeTab({Name = "Scripts"})
     
     AddButton(Tab1o, {
      Name = "Min Gaming",
     Callback = function()
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/Min/refs/heads/main/MinAE"))()
+
+  end
+  })
+
+    AddButton(Tab1o, {
+     Name = "zisRb7",
+    Callback = function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/Zis/refs/heads/main/ZisRb7"))()
+
+  end
+  })
+
+    AddButton(Tab1o, {
+     Name = "RubuHubv3",
+    Callback = function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Bubu2k/Rubutv/refs/heads/main/RubuHubV3.txt"))()
 
   end
   })
