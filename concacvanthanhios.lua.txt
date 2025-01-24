@@ -2,15 +2,15 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/VanThanhIOS/OniiChan
 
        local Window = MakeWindow({
          Hub = {
-         Title = "Văn Thành IOS",
+         Title = "Việt Hoàng iOS",
          Animation = "Script Tổng Hợp Ver1"
          },
         Key = {
         KeySystem = false,
-        Title = "Văn ThànHh IOS / Scrit Tổng Hợp",
+        Title = "VietHoangiOS / Scrit Tổng Hợp",
         Description = "",
         KeyLink = "",
-        Keys = {"VanThanhIOS"},
+        Keys = {"ViệtHoaàngiOS"},
         Notifi = {
         Notifications = true,
         CorrectKey = "Đang Chạy Kịch Bản",
@@ -21,7 +21,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/VanThanhIOS/OniiChan
   })
 
        MinimizeButton({
-       Image = "http://www.roblox.com/asset/?id=89284864928775",
+       Image = "http://www.roblox.com/asset/?id=109006615554747",
        Size = {40, 40},
        Color = Color3.fromRGB(10, 10, 10),
        Corner = true,
@@ -188,14 +188,14 @@ game:GetService("Players").LocalPlayer.Idled:connect(function()
 end)
  
 game.StarterGui:SetCore("SendNotification", {
-    Title = "Văn Thành IOS";
+    Title = "Việt Hoàng iOS";
     Text = "Đã Bật hitbox"; -- what the text says (ofc)
     Duration = 1;
 })
 wait(1)
 game.StarterGui:SetCore("SendNotification", {
-    Title = "Văn Thành IOS";
-    Text = "YTB: @thanhdzso1"; -- what the text says (ofc)
+    Title = "Việt Hoàng iOS";
+    Text = "YTB: @ViệtHoàngiOS"; -- what the text says (ofc)
     Duration = 1;
 })
 _G.HeadSize = 120
