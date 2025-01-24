@@ -332,6 +332,15 @@ local workspace = game:GetService("Workspace")
 local player = game:GetService("Players").LocalPlayer
 local camera = workspace.CurrentCamera
 
+    AddButton(Tab1o, {
+     Name = "Volcano",
+    Callback = function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/wpisstestfprg/Volcano/refs/heads/main/VolcanoLocal.lua", true))()
+
+  end
+  })
+
 --// Settings:
 local on = true -- Use this if your making gui
 
