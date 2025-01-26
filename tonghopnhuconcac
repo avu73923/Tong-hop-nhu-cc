@@ -3,7 +3,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/VanThanhIOS/OniiChan
        local Window = MakeWindow({
          Hub = {
          Title = "Việt Hoàng iOS",
-         Animation = "Script Tổng Hợp Ver1"
+         Animation = "Script Tổng Blox Fruit"
          },
         Key = {
         KeySystem = false,
@@ -158,6 +158,42 @@ loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3b2169cf53bc61
 
   end
   })
+
+    AddButton(Tab1o, {
+     Name = "Tổng Hợp",
+    Callback = function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Nghia11n/VIP/main/allscript.lua"))()
+
+   end
+   })
+
+    AddButton(Tab1o, {
+     Name = "Việt Hoàng iOS-1",
+    Callback = function()
+
+loadstring(Game:HttpGet("https://raw.githubusercontent.com/avu73923/Ho-ng-/refs/heads/main/luxucuthanh.txt"))()
+
+  end
+  })
+
+    AddButton(Tab1o, {
+     Name = "Việt Hoàng iOS-2",
+    Callback = function()
+
+loadstring(Game:HttpGet("https://raw.githubusercontent.com/avu73923/VietHoangiOS-2/refs/heads/main/oniichan%202.txt"))()
+
+   end
+   })
+
+    AddButton(Tab1o, {
+     Name = "Speed Hub",
+    Callback = function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua", true))()
+
+   end
+   })
 
     AddButton(Tab1o, {
      Name = "Auto Nhặt Rương",
